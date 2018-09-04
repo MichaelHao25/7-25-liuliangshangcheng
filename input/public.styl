@@ -1,0 +1,113 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+ body{
+ 	font-size: 16Px;
+ }
+
+.bg-gradient
+	background linear-gradient(to bottom,#1ad1fc,#1d69f0) left top/1px 530px repeat-x
+
+.header
+	height 424px
+	display flex
+	align-items center
+	justify-content center
+	a
+		display block
+		width 166px
+		img
+			display block
+			width 100%
+.main
+	width 690px
+	box-sizing border-box
+	padding 40px 35px 50px
+	margin 0 auto
+	background #ffffff
+	box-shadow 0 0 5px #ccc
+	border-radius 18px
+	.pb30
+		padding-bottom 30px
+	.p70-0-50
+		padding 70px 0 50px
+	.bdrs
+		height 86px
+		box-shadow 0 0 5px #ccc
+		background #f5f5f5
+		border-radius 43px
+	input
+		width 100%
+		height 100%
+		outline none
+		border none
+		background none
+		box-sizing border-box
+		padding 0 50px
+		font-size 30px
+		color #858484
+		&::placeholder
+			font-family 'microsoft yahei'
+			color #858484
+
+	.df
+		padding 0 50px
+		display flex
+		justify-content space-between
+		&.p0
+			padding 0
+		&.aic
+			justify-content flex-start
+			align-items center
+
+	.tar
+		text-align right
+	.p90-0-50
+		padding 90px 0 50px
+	.link
+		font-size 26px
+		color #474444
+		line-height 1
+	.submit
+		display block
+		width 516px
+		height 86px
+		border-radius 43px
+		font-size 40px
+		color #ffffff
+		background #1bb3f9
+		line-height 86px
+		text-align center
+		margin 0 auto
+	.verification-code
+		width calc(100% - 160px)
+	.get-verification-code
+		display block
+		font-size 20px
+		color #ffffff
+		width 142px
+		height 50px
+		text-align center
+		background #00aefe
+		line-height 50px
+
+
+.footer
+	position absolute
+	bottom 60px
+	left 0
+	right 0
+	text-align center
+	font-size 26px
+	color #858484
+	line-height 1
+	a
+		color #474444
+		padding-left 10px

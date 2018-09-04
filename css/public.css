@@ -1,0 +1,142 @@
+@import "reset.css";
+/*引入css文件的一种方式*/
+/*
+
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#99ffffff,endColorstr=#99ffffff)";
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99ffffff,endColorstr=#99ffffff);
+background:rgba(255,255,255,.8);
+
+
+ filter:alpha(opacity=40); 针对 IE8 以及更早的版本 */
+body {
+  font-size: 16Px;
+}
+.bg-gradient {
+  background: linear-gradient(to bottom, #1ad1fc, #1d69f0) left top/1px 5.3rem repeat-x;
+}
+.header {
+  height: 4.24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header a {
+  display: block;
+  width: 1.66rem;
+}
+.header a img {
+  display: block;
+  width: 100%;
+}
+.main {
+  width: 6.9rem;
+  box-sizing: border-box;
+  padding: 0.4rem 0.35rem 0.5rem;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 0 0.05rem #ccc;
+  border-radius: 0.18rem;
+}
+.main .pb30 {
+  padding-bottom: 0.3rem;
+}
+.main .p70-0-50 {
+  padding: 0.7rem 0 0.5rem;
+}
+.main .bdrs {
+  height: 0.86rem;
+  box-shadow: 0 0 0.05rem #ccc;
+  background: #f5f5f5;
+  border-radius: 0.43rem;
+}
+.main input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: none;
+  box-sizing: border-box;
+  padding: 0 0.5rem;
+  font-size: 0.3rem;
+  color: #858484;
+}
+.main input::-webkit-input-placeholder {
+  font-family: 'microsoft yahei';
+  color: #858484;
+}
+.main input:-ms-input-placeholder {
+  font-family: 'microsoft yahei';
+  color: #858484;
+}
+.main input::-ms-input-placeholder {
+  font-family: 'microsoft yahei';
+  color: #858484;
+}
+.main input::placeholder {
+  font-family: 'microsoft yahei';
+  color: #858484;
+}
+.main .df {
+  padding: 0 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.main .df.p0 {
+  padding: 0;
+}
+.main .df.aic {
+  justify-content: flex-start;
+  align-items: center;
+}
+.main .tar {
+  text-align: right;
+}
+.main .p90-0-50 {
+  padding: 0.9rem 0 0.5rem;
+}
+.main .link {
+  font-size: 0.26rem;
+  color: #474444;
+  line-height: 1;
+}
+.main .submit {
+  display: block;
+  width: 5.16rem;
+  height: 0.86rem;
+  border-radius: 0.43rem;
+  font-size: 0.4rem;
+  color: #fff;
+  background: #1bb3f9;
+  line-height: 0.86rem;
+  text-align: center;
+  margin: 0 auto;
+}
+.main .verification-code {
+  width: calc(100% - 1.6rem);
+}
+.main .get-verification-code {
+  display: block;
+  font-size: 0.2rem;
+  color: #fff;
+  width: 1.42rem;
+  height: 0.5rem;
+  text-align: center;
+  background: #00aefe;
+  line-height: 0.5rem;
+}
+.footer {
+  position: absolute;
+  bottom: 0.6rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 0.26rem;
+  color: #858484;
+  line-height: 1;
+}
+.footer a {
+  color: #474444;
+  padding-left: 0.1rem;
+}
+
+/*# sourceMappingURL=public.css.map */
